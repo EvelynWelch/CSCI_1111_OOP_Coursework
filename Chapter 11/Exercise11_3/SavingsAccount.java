@@ -2,8 +2,8 @@
 // date: 21/01/23
 
 class SavingsAccount extends Account {
-	SavingsAccount(){}
-	SavingsAccount(int id, double amount){
+	public SavingsAccount(){}
+	public SavingsAccount(int id, double amount){
 		super(id, amount);
 	}
 	@Override

@@ -3,12 +3,12 @@
 
 class CheckingAccount extends Account {
 	private double overdraftLimit = 0.00;
-	CheckingAccount(){}
-	CheckingAccount(double overDraftLimit){
+	public CheckingAccount(){}
+	public CheckingAccount(double overDraftLimit){
 		super();
 		this.overdraftLimit = overdraftLimit;
 	}
-	CheckingAccount(int id, double balance, double limit){
+	public CheckingAccount(int id, double balance, double limit){
 		super(id, balance);
 		this.overdraftLimit = limit;
 	}
